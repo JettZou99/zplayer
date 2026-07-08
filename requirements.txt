@@ -1,0 +1,14 @@
+# ZPlayer - 本地电影字幕同步对照工具
+# Python 3.10+
+
+PyQt6>=6.5.0
+python-vlc>=3.0.18121
+ffmpeg-python>=0.2.0
+pysrt>=1.1.2
+numpy>=1.24.0
+
+# UI 图标库 — Material Design / Font Awesome 矢量图标
+qtawesome>=1.3.0
+
+# Whisper 语音识别为可选功能，见 requirements-optional.txt
+# 安装方式: pip install -r requirements-optional.txt
