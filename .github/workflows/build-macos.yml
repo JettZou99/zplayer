@@ -13,6 +13,8 @@ on:
 
 env:
   PYTHON_VERSION: '3.12'
+permissions:
+  contents: write    # 允许创建 Release 和上传资产
 
 jobs:
   build-macos:
